@@ -35,18 +35,15 @@ jobs:
           node-version: "20"
       - name: Setup Pages
         id: pages
-        uses: actions/configure-pages@v5
-      - name: Step Into Catalog
-        run: |
-          cd catalog
+        uses: actions/configure-pages@v5      
       - name: Install dependencies
-        run: npm install
+        run: cd catalog && npm install
       - name: Build
-        run: npm run build
+        run: cd catalog && npm run build
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: ./dist
+          path: ./catalog/dist
 
   deploy:
     environment:
