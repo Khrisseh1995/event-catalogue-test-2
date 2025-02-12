@@ -10,7 +10,7 @@ This open-source project is designed to help you and your teams bring discoverab
 
 To get started you can read the following guides:
 
-* [Getting started with EventCatalog](https://eventcatalog.dev/docs/development/getting-started/introduction)  
+* [Getting started with EventCatalo](https://eventcatalog.dev/docs/development/getting-started/introduction)  
 * [Creating domains](https://eventcatalog.dev/docs/development/guides/domains/adding-domains)  
 * [Creating services](https://eventcatalog.dev/docs/development/guides/services/adding-services)  
 * [Creating commands](https://eventcatalog.dev/docs/development/guides/messages/commands/introduction)  
