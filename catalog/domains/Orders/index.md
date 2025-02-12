@@ -42,7 +42,7 @@ The Orders domain handles all operations related to customer orders, from creati
 
 ```mermaid
 sequenceDiagram
-    participant Customer
+    participant Customers
     participant OrdersService
     participant InventoryService
     participant NotificationService
