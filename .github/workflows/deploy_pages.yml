@@ -35,17 +35,14 @@ jobs:
       - name: Setup Pages
         id: pages
         uses: actions/configure-pages@v5
-      - name: Step Into Catalog
-        run: |
-          cd catalog
       - name: Install dependencies
-        run: pnpm install
+        run: cd catalog && pnpm install
       - name: Build
-        run: pnpm run build
+        run: cd catalog && pnpm run build
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: ./dist
+          path: ./catalog/dist
   deploy:
     environment:
       name: github-pages
